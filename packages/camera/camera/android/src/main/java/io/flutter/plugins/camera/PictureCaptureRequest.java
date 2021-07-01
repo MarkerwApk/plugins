@@ -77,7 +77,7 @@ class PictureCaptureRequest {
   }
 
   static class TimeoutHandler {
-    private static final int REQUEST_TIMEOUT = 15000;
+    private static final int REQUEST_TIMEOUT = 60000;
     private final Handler handler;
 
     TimeoutHandler() {
